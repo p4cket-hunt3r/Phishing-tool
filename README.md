@@ -165,7 +165,7 @@ More fake sites (Gmail, Snapchat, etc.)
 
 
 ---
-```
+
 ✅ Author:
 ```
 p4cket-hunt3r 

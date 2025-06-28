@@ -1,5 +1,4 @@
-from flask 
-import Flask, request, redirect
+from flask import Flask, request, redirect
 import os
 
 app = Flask(__name__)

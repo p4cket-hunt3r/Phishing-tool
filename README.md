@@ -1,78 +1,60 @@
-# Phishing Link Generator (Python Flask)
-
-## ❗ DISCLAIMER:
-
-This tool is **for educational purposes only** (cybersecurity training, ethical hacking labs, college projects, or personal awareness demos).  
-**Do not use for illegal activities or real-world phishing attacks.**  
-Unauthorized phishing is a criminal offense under cybercrime laws.
+# Phishing Link Generator - Educational Cybersecurity Tool
 
 ---
 
-## 📌 Project Description:
+## 📌 About This Tool:
 
-A simple single-file Python Flask app that creates fake social media login pages (Facebook, Instagram, Twitter).  
-When someone enters login details, the **username and password will appear live on your terminal** and also saved in a text file (`captured_data.txt`).
+This is a **Python-based phishing simulation tool** built using Flask.  
+It allows ethical hackers, students, and cybersecurity learners to **simulate phishing attacks for educational and awareness purposes**.
+
+### ✅ Features:
+
+- Generates fake login pages for popular platforms (Facebook, Instagram, Twitter)
+- Captures username and password entered by the victim
+- Displays captured data live in the terminal
+- Saves all captured credentials to a file (`captured_data.txt`)
+- Platform selection menu for easy targeting
+- No external HTML files (everything in one Python file)
+- Can run on Termux, Linux, and Windows
 
 ---
 
-## ✅ Supported Operating Systems:
+## 📋 Requirements:
 
-| OS | Supported |
+| Requirement | Details |
 |---|---|
-| **Termux (Android)** | ✅ |
-| **Linux (Ubuntu, Kali, Debian, etc.)** | ✅ |
-| **Windows (CMD / PowerShell)** | ✅ |
+| Python Version | Python 3.x |
+| Python Packages | Flask |
+| OS Support | Termux (Android), Linux (Ubuntu/Kali/Debian), Windows (CMD/PowerShell) |
 
 ---
 
-## ✅ Tool Features:
-
-- Single Python file (No external HTML/PHP needed)
-- Fake login pages for:  
-  ✅ Facebook  
-  ✅ Instagram  
-  ✅ Twitter
-- Captures victim's username and password
-- Shows captured data **live in your terminal**
-- Saves captured data in a text file
-- Auto-install Flask if not already installed
-- Runs fully on localhost (127.0.0.1:5000)
+## ⚙️ Installation Instructions:
 
 ---
 
-## ✅ Installation and Running Guide:
-
----
-
-### 🖥️ For Termux (Android):
+### ✅ Termux (Android):
 
 ```
 pkg update && pkg upgrade
 pkg install python
 pip install flask
-python phishing_link_generator.py
-```
-```
-Then open your browser and go to:
-http://127.0.0.1:5000/
+
 ```
 ---
 
-🐧 For Linux (Ubuntu/Kali/Debian):
+✅ Linux (Ubuntu / Kali / Debian):
 ```
 sudo apt update && sudo apt install python3 python3-pip
 pip3 install flask
-python3 phishing_link_generator.py
-
-Access in browser:
-http://127.0.0.1:5000/
 
 ```
 ---
 
-🪟 For Windows (CMD or PowerShell):
+✅ Windows:
 
-1. Install Python from https://www.python.org/downloads/
+1. Download and install Python 3.x from:
+https://www.python.org/downloads/
 
 
 2. Open CMD or PowerShell:
@@ -80,116 +62,83 @@ http://127.0.0.1:5000/
 
 ```
 pip install flask
+```
+
+---
+
+🚀 How to Run the Tool:
+```
 python phishing_link_generator.py
-
-Access via browser:
-http://127.0.0.1:5000/
-
 ```
----
+✅ After running:
 
-✅ How to Use:
+A platform selection menu will appear (Facebook / Instagram / Twitter)
 
-1. Run the Python script:
+Choose the desired target platform
 
-
-```
-python phishing_generator.py
-```
-2. Terminal will show:
+The tool will generate a local URL like:
 
 
+http://127.0.0.1:5000/facebook/login.php
 
-[+] Phishing server running at http://127.0.0.1:5000
+✅ Open this URL on your browser (on the same device).
 
-3. Open browser and test:
+When a victim submits credentials:
 
+Username and Password will appear live in your terminal
 
-
-Fake Page	URL
-
-Home Menu	http://127.0.0.1:5000/
-Facebook	http://127.0.0.1:5000/facebook
-Instagram	http://127.0.0.1:5000/instagram
-Twitter	http://127.0.0.1:5000/twitter
-
-
-4. When someone enters username and password and clicks login:
-
-
-
-✅ You will instantly see this in your Terminal:
-
-[+] Captured Login:
-Facebook - Username: victim_user | Password: victim_pass
-
-✅ It will also save to:
-
-captured_data.txt
-
-
----
-
-✅ Optional: Exposing Public Link (Ngrok)
-
-If you want to demo over internet (for testing only):
-
-./ngrok http 5000
-
-Ngrok will give a public URL like:
-https://abc123.ngrok.io/facebook
-
-✅ Do not send public links to real people. Test only on yourself.
-
-
----
-
-✅ Project Folder Structure:
-
-phishing_link_generator/
-├── phishing_generator.py
-├── captured_data.txt
-└── README.md
-
-
----
-
-✅ Extra Features (Optional to Add):
-
-IP address capture
-
-Timestamp logging
-
-More fake sites (Gmail, Snapchat, etc.)
+Also saved inside: captured_data.txt
 
 
 
 ---
 
-✅ Author:
-```
-p4cket-hunt3r 
-```
+✅ Important Notes:
+
+This tool runs on localhost (127.0.0.1) for ethical testing only.
+
+For external/public testing, you'd need port forwarding (like Ngrok) or DNS spoofing, which is beyond the scope of this README.
+
+
+
+---
+
+⚠️ Legal Disclaimer:
+
+This tool is intended strictly for educational purposes, cybersecurity awareness, and ethical hacking practice only.
+
+By using this tool, you agree to the following:
+
+✅ You will only use this tool in authorized environments (your own devices, labs, or with written permission).
+
+✅ You will NOT use this for illegal phishing, harassment, or real-world cybercrime.
+
+✅ The author ("p4cket-hunt3r") is NOT responsible for any misuse, data loss, or legal issues arising from improper use.
+
+
+
+
+---
+
+✅ License:
+
+MIT License – 2025 – p4cket-hunt3r
+Free to use, modify, and distribute.
+You must give credit to the author (p4cket-hunt3r).
+No warranty. No liability.
+
+
+---
+
+✅ Stay Ethical. Stay Legal.
+✅ For Cybersecurity Learning Only.
 
 ---
 
 
-# ⚠️ Legal Disclaimer:
-
-This project is developed **strictly for educational purposes, cybersecurity awareness, and ethical hacking training only**.  
-It is intended for:
-
-- Cybersecurity students  
-- Ethical hacking labs  
-- Penetration testing practice environments  
-- Academic research and demonstration  
-
-**By using this tool, you agree to the following conditions:**
-
-1. You will **NOT use this tool for any illegal activities**, unauthorized testing, or real-world phishing attacks.
-2. You will **only use this tool on systems you own or have explicit written permission to test**.
-3. The creator (p4cket-hunt3r), contributors, and any distributing platforms (GitHub, etc.) are **not responsible for any misuse or damage caused** by this tool.
+👤 Author:
 
 
 
-✅ **Always practice ethical hacking responsibly.**
+
+username:```p4cket-hunt3r```

@@ -50,7 +50,7 @@ When someone enters login details, the **username and password will appear live 
 pkg update && pkg upgrade
 pkg install python
 pip install flask
-python phishing_generator.py
+python phishing_link_generator.py
 
 Then open your browser and go to:
 http://127.0.0.1:5000/
@@ -62,7 +62,7 @@ http://127.0.0.1:5000/
 ```
 sudo apt update && sudo apt install python3 python3-pip
 pip3 install flask
-python3 phishing_generator.py
+python3 phishing_link_generator.py
 
 Access in browser:
 http://127.0.0.1:5000/
@@ -80,7 +80,7 @@ http://127.0.0.1:5000/
 
 ```
 pip install flask
-python phishing_generator.py
+python phishing_link_generator.py
 
 Access via browser:
 http://127.0.0.1:5000/

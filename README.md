@@ -172,3 +172,24 @@ p4cket-hunt3r
 ```
 
 ---
+
+
+# ⚠️ Legal Disclaimer:
+
+This project is developed **strictly for educational purposes, cybersecurity awareness, and ethical hacking training only**.  
+It is intended for:
+
+- Cybersecurity students  
+- Ethical hacking labs  
+- Penetration testing practice environments  
+- Academic research and demonstration  
+
+**By using this tool, you agree to the following conditions:**
+
+1. You will **NOT use this tool for any illegal activities**, unauthorized testing, or real-world phishing attacks.
+2. You will **only use this tool on systems you own or have explicit written permission to test**.
+3. The creator (p4cket-hunt3r), contributors, and any distributing platforms (GitHub, etc.) are **not responsible for any misuse or damage caused** by this tool.
+
+
+
+✅ **Always practice ethical hacking responsibly.**

@@ -51,10 +51,11 @@ pkg update && pkg upgrade
 pkg install python
 pip install flask
 python phishing_link_generator.py
-
+```
+```
 Then open your browser and go to:
 http://127.0.0.1:5000/
-
+```
 ```
 ---
 
